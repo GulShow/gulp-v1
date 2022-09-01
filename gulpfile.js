@@ -27,7 +27,12 @@ const watchers = () => {
     watch('dist/scss/index.scss', (done) => {
         console.log('File index.scss was changed');
         done()
-    })
+    }) ;
+
+    watch('dist/pages/index.html', (done) => {
+        console.log('File index.html was changed');
+        done()
+    }) ;
 }
 
 
